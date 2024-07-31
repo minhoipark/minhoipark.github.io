@@ -1,24 +1,24 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "M. Rastgoo"
-description: "Personal website of Mojdeh Rastgoo"
+title: "Ms. Minhoi.Park"
+description: "Personal website of Minhoi Park"
 keywords: "mrastgoo,mojdeh,rastgoo,medical,imaging,vision,melanoma,polarized,multispectral"
 baseurl: "/"
-url: "http://mrastgoo.github.io"
+url: "http://minhoipark.github.io"
 # url: "http://127.0.0.1:4000"
 
 # author
 author:
-  name: 'Rastgoo'
-  first_name: 'Mojdeh'
-  last_name: 'Rastgoo'
-  email: 'mojdeh.rastgoo@gmail.com'
-  linkedin_username: 'https://www.linkedin.com/in/mojdeh-rastgoo-6462753a/'
-  scholar_username: 'https://scholar.google.fr/citations?user=lPIo6ucAAAAJ&hl=en&oi=ao'
-  github_username: 'mrastgoo'
+  name: 'Minhoi'
+  first_name: 'Minhoi'
+  last_name: 'Park'
+  email: 'minhoi.park.stella@gmail.com'
+  linkedin_username: 'www.linkedin.com/in/minhoi-park-b3445b251'
+  scholar_username: 'https://scholar.google.com/citations?user=K05fCo4AAAAJ&hl=ko'
+  github_username: 'minhoipark'
   head_img: 'static/img/landing/picture.jpeg'
-  desc: "Currently I am a data scientist at Saint-Gobain Research Paris. I am passionate about data analysis, machine learning in general and I strive for open source and data." 
+  desc: "I am currently a master's student in the Department of Urban Big Data Convergence at the University of Seoul. Alongside my studies, I am working as a researcher at the Data Science Research Institute at Yonsei University."
   
 
 # sections
