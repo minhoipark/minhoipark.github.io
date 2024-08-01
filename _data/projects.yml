@@ -1,11 +1,19 @@
-- name: 'I2CVB Retinopathy'
-  i18n: 'retinopathy'
-  url: '/I2Cvb/retinopathy'
-  img: 'static/img/landing/i2cvb.png'
-  desc: 'Repository associated with our medical imaging development related to retinopathy.'
+- name: 'Research and development of large language model construction and utilization strategies for plant operation and maintenance Generative AI for Smart Consultation'
+  i18n: 'Dasan'
+  #url: '/I2Cvb/retinopathy'
+  #img: 'static/img/landing/i2cvb.png'
+  #desc: 'Repository associated with our medical imaging development related to retinopathy.'
 
-- name: 'VIPeR'
-  i18n: 'VIPeR'
-  url: 'https://gitlab.com/olivimo/VIPeR'
-  img: 'static/img/landing/VIPeR.png'
-  desc: 'VIsion Polarimétrique pour la navigation de Robots, a project dedicated to exploit polarization as an extra navigation tool for the robot'
+- name: 'Education Content Analysis and Relation Extraction'
+
+- name: 'Explainable AI for Blood Pressure Estimation'
+
+- name: 'Seoul Library (Seoul Future Hall) Creation and Operation Plan'
+
+- name: 'Explainable Graph Neural Network and Molecular Structure'
+
+- name: 'Trustworthy AI Guidebook for Engineer'
+  #i18n: 'VIPeR'
+  #url: 'https://gitlab.com/olivimo/VIPeR'
+  #img: 'static/img/landing/VIPeR.png'
+  #desc: 'VIsion Polarimétrique pour la navigation de Robots, a project dedicated to exploit polarization as an extra navigation tool for the robot'
