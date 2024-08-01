@@ -1,20 +1,31 @@
 - name: 'Research and development of large language model construction and utilization strategies for plant operation and maintenance Generative AI for Smart Consultation'
   i18n: 'Dasan'
-  #url: '/I2Cvb/retinopathy'
-  #img: 'static/img/landing/i2cvb.png'
-  #desc: 'Repository associated with our medical imaging development related to retinopathy.'
+  img: 'static/img/landing/dasan.png'
+  desc: 'Repository associated with our medical imaging development related to retinopathy.'
 
 - name: 'Education Content Analysis and Relation Extraction'
-  i18n: 'Husler'
-  #url: '/changdaeoh/LMgMF'
+  i18n: 'TIPS'
+  desc: 'Development of an Artificial Intelligence Model that Comprehensively Considers Multimodal Elements of Educational Content (Images, Text, Equations, etc.) and Inference of Their Relationships'
+
+- name: 'Education Contents Relationship Analysis with Multimodal Learning'
+  i18n: 'husler'
+  img: 'static/img/landing/husler.jpg'
+  desc: 'Development of a Multimodal Algorithm for Educational Content Recommendation'
 
 - name: 'Explainable AI for Blood Pressure Estimation'
   i18n: 'ETRI22'
+  img: 'static/img/landing/ETRI22.png'
+  desc: 'Development and Visualization of Time Series Transformer for PPG-Based Blood Pressure Estimation'
   
+- name: 'Financial and Telecommunication Data Analysis'
+  i18n: 'police22'
+  desc: 'Development of algorithms for effective analysis and visualization of various structured data, and establishment of strategies for their application in actual police investigations and crime rate prediction'
 
 - name: 'Explainable Graph Neural Network and Molecular Structure'
   i18n: 'Graph'
+  desc:'Development of Explainable Graph Node Classification Algorithm'
 
 - name: 'Trustworthy AI Guidebook for Engineer'
   i18n: 'TTA'
+  desc: 'Derivation of Verification Items and Methods for Trustworthy Artificial Intelligence'
   
