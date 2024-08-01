@@ -5,6 +5,7 @@
 
 - name: 'Education Content Analysis and Relation Extraction'
   i18n: 'TIPS'
+  img: 'static/img/landing/dasan.png'
   desc: 'Development of an Artificial Intelligence Model that Comprehensively Considers Multimodal Elements of Educational Content (Images, Text, Equations, etc.) and Inference of Their Relationships'
 
 - name: 'Education Contents Relationship Analysis with Multimodal Learning'
@@ -23,7 +24,7 @@
 
 - name: 'Explainable Graph Neural Network and Molecular Structure'
   i18n: 'Graph'
-  desc:'Development of Explainable Graph Node Classification Algorithm'
+  desc: 'Development of Explainable Graph Node Classification Algorithm'
 
 - name: 'Trustworthy AI Guidebook for Engineer'
   i18n: 'TTA'
