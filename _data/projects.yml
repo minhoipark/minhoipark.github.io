@@ -5,15 +5,16 @@
   #desc: 'Repository associated with our medical imaging development related to retinopathy.'
 
 - name: 'Education Content Analysis and Relation Extraction'
+  i18n: 'Husler'
+  #url: '/changdaeoh/LMgMF'
 
 - name: 'Explainable AI for Blood Pressure Estimation'
-
-- name: 'Seoul Library (Seoul Future Hall) Creation and Operation Plan'
+  i18n: 'ETRI22'
+  
 
 - name: 'Explainable Graph Neural Network and Molecular Structure'
+  i18n: 'Graph'
 
 - name: 'Trustworthy AI Guidebook for Engineer'
-  #i18n: 'VIPeR'
-  #url: 'https://gitlab.com/olivimo/VIPeR'
-  #img: 'static/img/landing/VIPeR.png'
-  #desc: 'VIsion Polarimétrique pour la navigation de Robots, a project dedicated to exploit polarization as an extra navigation tool for the robot'
+  i18n: 'TTA'
+  
