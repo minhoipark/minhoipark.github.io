@@ -1,22 +1,22 @@
 - name:
-    detail: Resercher at Yonsei University, MLAI LAB
+    detail: Resercher @ Yonsei University
     i18n: rsy
   desc:
-    detail: From April 2024 to present, I'm working in
+    detail: From April 2023 to present
     i18n: rsy_des
   date:
     detail: Apr. 2023 - Present
     i18n: rsy_date
   job:
-    detail: Researcher
+    detail: Machine Learning and Artificial Intelligence Lab
     i18n: rsy_job
   icon: fa-search
 
 - name:
-    detail: Master
+    detail: M.S. candidate in Engineering  @ University of Seoul
     i18n: ms
   desc:
-    detail: From Mars 2023 to present, I am master's student in the Department of Urban Bif Data Convergence.
+    detail: I am a master's student in the Department of Urban Big Data Convergence.
     i18n: ms_des
   date:
     detail: Mar. 2023 - Present
@@ -27,15 +27,15 @@
   icon: fa-search
 
 - name:
-    detail: Researcher at University of Seoul, MLAI LAB
+    detail: Researcher @ University of Seoul
     i18n: rs
   desc:
-    detail: From September 2021 to Febrary 2023, I was a researcher in University of Seoul, MLAI LAB.
+    detail: From September 2021 to February 2023
     i18n: rs_des
   date:
     detail: Sep. 2021 - Feb. 2023
     i18n: rs_date
   job:
-    detail: Resercher
+    detail: Machine Learning and Artificial Intelligence Lab
     i18n: rs_job
   icon: fa-search
