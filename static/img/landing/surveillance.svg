@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1b263b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00b4d8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0077b6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#48cae4;stop-opacity:0.2" />
+      <stop offset="50%" style="stop-color:#00b4d8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#48cae4;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="180" fill="url(#bg2)" />
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#1b4965" stroke-width="2" opacity="0.5" />
+
+  <!-- Radar rings -->
+  <circle cx="200" cy="200" r="120" fill="none" stroke="#0077b6" stroke-width="0.8" opacity="0.25"/>
+  <circle cx="200" cy="200" r="90" fill="none" stroke="#0077b6" stroke-width="0.8" opacity="0.25"/>
+  <circle cx="200" cy="200" r="60" fill="none" stroke="#0077b6" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- Cross lines -->
+  <line x1="200" y1="75" x2="200" y2="325" stroke="#0077b6" stroke-width="0.8" opacity="0.2"/>
+  <line x1="75" y1="200" x2="325" y2="200" stroke="#0077b6" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- Heartbeat/pulse line -->
+  <polyline points="60,210 100,210 120,210 135,210 150,180 160,240 170,170 180,250 190,190 200,210 210,210 220,185 230,235 240,175 250,245 260,195 270,210 280,210 300,210 340,210"
+            fill="none" stroke="url(#pulse)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Alert dots on pulse -->
+  <circle cx="170" cy="170" r="4" fill="#e63946" opacity="0.9"/>
+  <circle cx="240" cy="175" r="4" fill="#e63946" opacity="0.9"/>
+
+  <!-- Alert rings -->
+  <circle cx="170" cy="170" r="8" fill="none" stroke="#e63946" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="240" cy="175" r="8" fill="none" stroke="#e63946" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Globe/network icon (top) -->
+  <circle cx="200" cy="120" r="30" fill="none" stroke="#48cae4" stroke-width="2" opacity="0.7"/>
+  <ellipse cx="200" cy="120" rx="15" ry="30" fill="none" stroke="#48cae4" stroke-width="1" opacity="0.5"/>
+  <line x1="170" y1="120" x2="230" y2="120" stroke="#48cae4" stroke-width="1" opacity="0.5"/>
+  <line x1="175" y1="105" x2="225" y2="105" stroke="#48cae4" stroke-width="0.8" opacity="0.4"/>
+  <line x1="175" y1="135" x2="225" y2="135" stroke="#48cae4" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Data points (surveillance nodes) -->
+  <g opacity="0.8">
+    <circle cx="120" cy="140" r="4" fill="#48cae4"/>
+    <circle cx="280" cy="140" r="4" fill="#48cae4"/>
+    <circle cx="100" cy="260" r="4" fill="#00b4d8"/>
+    <circle cx="300" cy="260" r="4" fill="#00b4d8"/>
+    <circle cx="150" cy="300" r="4" fill="#48cae4"/>
+    <circle cx="250" cy="300" r="4" fill="#48cae4"/>
+  </g>
+
+  <!-- Connection lines from nodes to center -->
+  <g stroke="#48cae4" stroke-width="1" opacity="0.3">
+    <line x1="120" y1="140" x2="185" y2="185"/>
+    <line x1="280" y1="140" x2="215" y2="185"/>
+    <line x1="100" y1="260" x2="185" y2="215"/>
+    <line x1="300" y1="260" x2="215" y2="215"/>
+    <line x1="150" y1="300" x2="190" y2="220"/>
+    <line x1="250" y1="300" x2="210" y2="220"/>
+  </g>
+
+  <!-- Center monitoring icon -->
+  <rect x="185" y="275" width="30" height="22" rx="3" fill="none" stroke="#48cae4" stroke-width="2" opacity="0.8"/>
+  <line x1="200" y1="297" x2="200" y2="310" stroke="#48cae4" stroke-width="2" opacity="0.8"/>
+  <line x1="188" y1="310" x2="212" y2="310" stroke="#48cae4" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Status indicators -->
+  <g font-family="monospace" font-size="10" fill="#48cae4" opacity="0.4">
+    <text x="60" y="90">MONITOR</text>
+    <text x="280" y="90">ACTIVE</text>
+    <text x="60" y="340">EVENT</text>
+    <text x="285" y="340">TRACK</text>
+  </g>
+</svg>

@@ -1,13 +1,13 @@
 - name: 'Cyber Crime Investigation Clue Integrated Analysis and Reasoning'
   i18n: 'CyberCrime'
   url: ''
-  img: 'static/img/landing/Police.png'
+  img: 'static/img/landing/cybercrime.svg'
   desc: 'Development of integrated analysis and reasoning system for cyber crime investigation clues'
 
 - name: 'Event-based and Syndrome Surveillance Pilot Operation Research'
   i18n: 'Surveillance'
   url: ''
-  img: 'static/img/landing/TTA.png'
+  img: 'static/img/landing/surveillance.svg'
   desc: 'Research on event-based and syndrome surveillance pilot operation systems'
 
 - name: 'Research and development of large language model construction and utilization strategies for plant operation and maintenance Generative AI for Smart Consultation'
