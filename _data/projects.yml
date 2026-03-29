@@ -1,3 +1,15 @@
+- name: 'Cyber Crime Investigation Clue Integrated Analysis and Reasoning'
+  i18n: 'CyberCrime'
+  url: ''
+  img: 'static/img/landing/Police.png'
+  desc: 'Development of integrated analysis and reasoning system for cyber crime investigation clues'
+
+- name: 'Event-based and Syndrome Surveillance Pilot Operation Research'
+  i18n: 'Surveillance'
+  url: ''
+  img: 'static/img/landing/TTA.png'
+  desc: 'Research on event-based and syndrome surveillance pilot operation systems'
+
 - name: 'Research and development of large language model construction and utilization strategies for plant operation and maintenance Generative AI for Smart Consultation'
   i18n: 'Dasan'
   url: ''
@@ -21,7 +33,7 @@
   url: ''
   img: 'static/img/landing/ETRI22.png'
   desc: 'Development and Visualization of Time Series Transformer for PPG-Based Blood Pressure Estimation'
-  
+
 - name: 'Financial and Telecommunication Data Analysis'
   i18n: 'police22'
   url: ''
@@ -39,4 +51,3 @@
   url: ''
   img: 'static/img/landing/TTA.png'
   desc: 'Derivation of Verification Items and Methods for Trustworthy Artificial Intelligence'
-  

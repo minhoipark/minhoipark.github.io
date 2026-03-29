@@ -7346,3 +7346,106 @@ body.rtls.top-navigation .footer.fixed {
 .rtls #right-sidebar.sidebar-open {
     left: 0;
 }
+
+/* ===== Custom Enhancements ===== */
+
+/* Publication entries */
+.landing-page .publications li.entry {
+    padding: 18px 24px;
+    margin-bottom: 16px;
+    background: #fff;
+    border-left: 4px solid #3385FF;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.landing-page .publications li.entry:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 16px rgba(51,133,255,0.15);
+}
+.landing-page .publications li.entry h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #2c3e50;
+    line-height: 1.4;
+}
+.landing-page .publications h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #3385FF;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #e7eaec;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+.landing-page .publications h2 {
+    font-size: 15px;
+    color: #888;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+/* Project cards */
+.landing-page .project .team-member {
+    padding: 28px 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.landing-page .project .team-member:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 30px rgba(51,133,255,0.18);
+}
+.landing-page .project .team-member h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+.landing-page .project .team-member p {
+    font-size: 13px;
+    color: #777;
+    line-height: 1.6;
+}
+
+/* Timeline enhancements */
+.landing-page .vertical-timeline-content h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.landing-page .vertical-timeline-content {
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* About section social icons */
+.landing-page .social-icon a {
+    height: 36px;
+    width: 36px;
+    padding: 7px 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.landing-page .social-icon a:hover {
+    background: #2070e0;
+    transform: scale(1.15);
+}
+
+/* Section spacing */
+.landing-page .features {
+    padding: 60px 0;
+}
+.landing-page .navy-line {
+    margin: 40px auto 0;
+    transition: width 0.3s ease;
+}
+.landing-page section:hover .navy-line {
+    width: 100px;
+}

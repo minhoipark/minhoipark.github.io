@@ -1,4 +1,18 @@
 - name:
+    detail: Ph.D. candidate in Engineering @ University of Seoul
+    i18n: phd
+  desc:
+    detail: Department of Urban Big Data Convergence
+    i18n: phd_des
+  date:
+    detail: Sep. 2025 - Present
+    i18n: phd_date
+  job:
+    detail: Ph.D. Student
+    i18n: phd_job
+  icon: fa-graduation-cap
+
+- name:
     detail: Researcher @ Yonsei University
     i18n: rsy
   desc:
@@ -13,18 +27,18 @@
   icon: fa-search
 
 - name:
-    detail: M.S. candidate in Engineering  @ University of Seoul
+    detail: M.S. in Engineering @ University of Seoul
     i18n: ms
   desc:
-    detail: I am a master's student in the Department of Urban Big Data Convergence.
+    detail: Department of Urban Big Data Convergence. Graduated.
     i18n: ms_des
   date:
-    detail: Mar. 2023 - Present
+    detail: Mar. 2023 - Aug. 2025
     i18n: ms_date
   job:
-    detail: Master
+    detail: Master of Engineering
     i18n: ms_job
-  icon: fa-search
+  icon: fa-certificate
 
 - name:
     detail: Researcher @ University of Seoul
